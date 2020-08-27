@@ -51,3 +51,23 @@ vet1.push('jaca')
 // forma 3: splice()
 let removido5 = vet1.splice(3, 1)
 console.log(removido5, vet1)
+
+// Percurso de vetores
+for(let i = 0; i < vet1.length; i++){
+    console.log(vet1[i])
+}
+
+console.log('------------------------------')
+
+// Forma 2 For... Of
+
+for(let fruta of vet1){
+    console.log(fruta)
+}
+
+console.log('------------------------------')
+
+// Forma 3
+vet1.forEach(function(valor){
+    console.log(valor)
+})
